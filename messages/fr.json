@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "Help a Business — Microcrédit communautaire au Maroc",
+    "description": "Financez des micro-projets marocains à 0% d’intérêt. Devenez mécène local et suivez l’impact en temps réel."
+  },
+  "nav": {
+    "becomeBacker": "Devenir soutien",
+    "submitProject": "Soumettre votre projet"
+  },
+  "hero": {
+    "headline": "Financez des micro‑projets marocains à 0% d’intérêt",
+    "subcopy": "Soutenez des artisans et commerçants locaux. Parcourez, participez, et suivez l’impact en toute transparence."
+  },
+  "how": {
+    "title": "Comment ça marche",
+    "step1": "Parcourir les projets",
+    "step2": "S’engager (0% intérêt)",
+    "step3": "Suivre l’avancement"
+  },
+  "benefits": {
+    "trust": "Confiance",
+    "community": "Communauté",
+    "growth": "Croissance",
+    "transparency": "Transparence"
+  },
+  "cta": {
+    "becomeBacker": "Devenir soutien",
+    "submitProject": "Soumettre votre projet"
+  },
+  "faq": {
+    "title": "Questions fréquentes"
+  }
+}

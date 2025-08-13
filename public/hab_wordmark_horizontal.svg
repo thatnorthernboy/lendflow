@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  <g transform="translate(40, -20) scale(0.7)">
+    <!-- import the mark as a group -->
+    <g>
+      <circle cx="256" cy="256" r="220" fill="none" stroke="#F9A826" stroke-width="24"/>
+      <g fill="#E2725B" opacity="0.9">
+        <rect x="246" y="118" width="20" height="60" rx="4" transform="rotate(45 256 148)" />
+        <rect x="334" y="246" width="60" height="20" rx="4" transform="rotate(45 364 256)" />
+        <rect x="246" y="334" width="20" height="60" rx="4" transform="rotate(45 256 364)" />
+        <rect x="118" y="246" width="60" height="20" rx="4" transform="rotate(45 148 256)" />
+      </g>
+      <g fill="#27AE60">
+        <path d="M256 320c-6 0-10-4-10-10v-60c0-6 4-10 10-10s10 4 10 10v60c0 6-4 10-10 10z"/>
+        <path d="M246 250c-36 0-60-18-68-48 32-6 68 8 82 36 2 4-4 12-14 12z"/>
+        <path d="M266 250c36 0 60-18 68-48-32-6-68 8-82 36-2 4 4 12 14 12z"/>
+      </g>
+      <g stroke="#2C3E50" stroke-width="8" fill="none" opacity="0.85">
+        <rect x="176" y="176" width="160" height="160" rx="18"/>
+        <rect x="176" y="176" width="160" height="160" rx="18" transform="rotate(45 256 256)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- English wordmark -->
+  <text x="520" y="185" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#2C3E50">
+    Help a Business
+  </text>
+  <text x="520" y="245" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#2C3E50">
+    0% community micro‑loans • Transparent • Local
+  </text>
+
+  <!-- Arabic wordmark -->
+  <text x="520" y="315" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="40" font-weight="600"
+        fill="#2C3E50" direction="rtl" unicode-bidi="bidi-override">
+    مساعدة عمل
+  </text>
+</svg>

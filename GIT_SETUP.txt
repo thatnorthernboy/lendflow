@@ -1,0 +1,29 @@
+Help a Business — Git quick setup
+
+1) Unzip the folder, open a terminal in it:
+   cd help-a-business-landing
+
+2) Initialize git and make the first commit:
+   git init -b main
+   git add .
+   git commit -m "chore: initial commit (Next.js landing scaffold)"
+
+3) Create a new GitHub repo (choose one):
+
+   A) Using GitHub CLI (easiest):
+      gh auth login
+      gh repo create help-a-business-landing --private --source=. --remote=origin --push
+
+   B) Without GitHub CLI:
+      - Create a repo at https://github.com/new (no README, no .gitignore)
+      - Then run (replace USERNAME and REPO):
+        git remote add origin https://github.com/USERNAME/REPO.git
+        git push -u origin main
+
+4) Verify on GitHub that your files are there. Then go to Vercel and import the repo.
+
+Notes:
+- .env.local is ignored by .gitignore (do not commit secrets).
+- Keep your lockfile (pnpm-lock.yaml / package-lock.json) committed.
+- To add forms to the homepage, place <DonorForm /> and <EntrepreneurForm /> in app/[locale]/page.tsx.
+Generated on 2025-08-11.

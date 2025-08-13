@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-deepblue: #1E3A8A;
+  --color-gold: #F59E0B;
+  --color-green: #10B981;
+  --color-terracotta: #EF4444;
+  --bg: #f8fafc;
+  --fg: #0f172a;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--fg);
+  background: var(--bg);
+  font-family: 'Poppins', sans-serif;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+.container-max {
+  @apply max-w-[1120px] mx-auto px-4;
+}
+
+.card {
+  @apply rounded-2xl shadow-sm border border-slate-200 bg-white;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 font-semibold transition transform hover:scale-105 active:scale-95;
+}
+
+.btn-primary {
+  @apply bg-gold text-deepblue hover:brightness-95;
+}
+
+.btn-secondary {
+  @apply bg-deepblue text-white hover:brightness-110;
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm border;
+}
